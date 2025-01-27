@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowMap</title>
+    <link rel="stylesheet" href="css/glav_css.css">
+</head>
+<body>
+
+<header id="menu-head" class="menu-head">
+    <div class="menu1">
+        <button onclick="window.location.href='/akkaynt.html'" class="akk-knopka" id="akk-knopka">☺️</button>
+        <h1 onclick="window.location.href=''" class="KnowMap">KnowMap</h1>
+        <button class="menu-knopka" id="menu-knopka">☰</button>
+    </div>
+    <script src="java/menu.js"></script>
+
+    <aside>    
+        <div class="pod-head">
+            <div id="menu" class="menu" style="display: none;">
+                <ul>
+                    <li><a>1. История</a></li>
+                    <li><a>2. Настройки</a></li>
+                    <li><a>3. FAQ</a></li>
+                    <li><a>4. Главная</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+</header>
+
+<div class="osnova-pod-head" id="osnova-pod-head">
+    <h1 class="nadpis-fail">⬇ Нажмите чтоб выбрать файл с вашим audio ⬇</h1>
+    <div class="vibor-faila-tbl">
+        <button class="vibor-faila" id="vibor-faila">Нажми на меня для выбора audio файла</button>
+    </div>
+    <input type="file" id="vibor-file" style="display: none;" accept="audio/*" />
+    <script src="java/zagryzka_fila.js"></script>
+</div>
+
+</body>
+</html>
